@@ -1,7 +1,11 @@
 import numpy as np
 import random
+import json
+import matplotlib.pyplot as plt
+import pickle
 from pyboy import PyBoy
 from pyboy.utils import WindowEvent
+import time
 
 class Ambiente:
     def __init__(self, nome_arquivo='mario.gb', modo_silencioso=True):
